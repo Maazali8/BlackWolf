@@ -15,7 +15,7 @@
     background: #000;
   }
 
-/* 
+
  .Fornt{
   height: 100vh;
   width: 100%;
@@ -28,7 +28,7 @@ display: flex;
  mask-image: url(ink_lv2.gif); 
 mask-repeat: no-repeat;
 mask-size: cover;
-}  */
+} 
 .Fornt div{
 
  height: 45%;
