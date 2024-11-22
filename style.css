@@ -1,0 +1,143 @@
+* {
+  margin: 0%;
+  padding: 0%;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  body{
+    background: #000;
+  }
+
+
+/* .Fornt{
+  height: 100vh;
+  width: 100%;
+  background-image: url(bg.jpg);
+  
+background-position: center;
+background-size: cover;
+z-index: -1;
+display: flex;
+ mask-image: url(ink_lv2.gif); 
+mask-repeat: no-repeat;
+mask-size: cover;
+} */
+.Fornt div{
+
+ height: 45%;
+ margin: auto;
+}
+.Fornt div h1{
+  color: aliceblue;
+  font-family: 'Hallowed Grounds';
+text-align: center;
+margin-top: 40px;
+font-size: 6vw;
+
+}
+
+.Fornt div h3{
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 1vw;
+}
+.about{
+  height: 100vh;
+  width: 100%;
+}
+.pic{
+  position: relative;
+right: 500px;
+transition: 2s ease-out;
+}
+.pic img{
+  width: 400px;
+  height: 96vh;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+.pic--visible{
+position: relative;
+right: 0px;
+}
+.about-pic{
+  display:flex;
+  flex-wrap: nowrap;
+}
+.text{
+  width: 40%;
+  height: 60vh;
+justify-self: end;
+margin-top: 200px;
+margin-left: 250px;
+color: rgb(255, 255, 255);
+opacity: 0;
+transition: 1.5s ease;
+}
+.text--visible{
+  opacity: 1;
+}
+.text h1{
+ text-align: center;
+font-family:'orpheus-pro' ;
+}
+.text h3{
+  font-family:'Hallowed Grounds' ;
+font-size: medium;
+}
+.about_ii{
+display: flex;
+}
+.text_ii{
+background: #000;
+width: 40%;
+height: 60vh;
+justify-self: end;
+margin-top: 200px;
+margin-left: 100px;
+color: rgb(255, 255, 255);
+ opacity: 0; 
+transition: 1.5s ease;
+}
+.text_ii--visible{
+  opacity: 1;
+}
+
+.text_ii h1{
+  text-align: center;
+ font-family:'orpheus-pro' ;
+ }
+ .text_ii h3{
+   font-family:'Hallowed Grounds' ;
+ font-size: medium;
+ }
+.pic_ii{
+  position: relative;
+  left: 500px;
+  transition: 2s ease;
+}
+ .pic_ii img{
+  width: 400px;
+  height: 96vh;
+  margin-top: -50px;
+  margin-left: 40%;
+  
+ }
+ .pic_ii--visible{
+  position: relative;
+  left: 0px;
+  }
+  .services{
+    height: 100vh;
+    width: 100%;
+background: #a39e9e;
+
+  }
