@@ -1,0 +1,159 @@
+/* Responsive CSS */
+@media (max-width: 1200px) {
+    .Fornt div h1 {
+      font-size: 7vw;
+    }
+    .Fornt div h3 {
+      font-size: 1.5vw;
+    }
+    .pic img {
+    margin-top: 40px;
+      width: 350px;
+      height: 80vh;
+      margin-left: 10%;
+    }
+    .text {
+      margin-left: 100px;
+      height: auto;
+      width: 50%;
+    }
+    .pic_ii img {
+      margin-top: 40px;
+        width: 350px;
+        height: 80vh;
+        margin-left: 10%;
+      }
+      .text_ii {
+        margin-left: 100px;
+        height: auto;
+        width: 50%;
+      }
+
+  }
+  
+  @media (max-width: 992px) {
+    .Fornt div h1 {
+      font-size: 8vw;
+    }
+    .Fornt div h3 {
+      font-size: 2vw;
+    }
+    .pic img {
+        margin-top: 40px;
+      width: 300px;
+      height: 70vh;
+      margin-left: 5%;
+    }
+    .text {
+      margin-left: 50px;
+      width: 60%;
+    }
+    .services_div{
+      justify-content: space-evenly;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Fornt {
+      flex-direction: column;
+    }
+    .Fornt div h1 {
+      font-size: 9vw;
+    }
+    .Fornt div h3 {
+      font-size: 2.5vw;
+    }
+    .about-pic {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .pic img {
+        margin-top: 40px;
+      width: 270px;
+      height: auto;
+      margin: 0 auto;
+    }
+    .text {
+      width: 80%;
+      margin: 20px auto;
+    }
+    .text_ii h1 {
+
+      display: none;
+    }
+    .pic_ii img {
+      display: none;
+    }
+    .services_div{
+      justify-content: space-evenly;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .Fornt div h1 {
+      font-size: 10vw;
+    }
+    .Fornt div h3 {
+      font-size: 3vw;
+    }
+    .pic img {
+        margin-top: 40px;
+      width: 230px;
+      height: auto;
+
+    }
+    .text {
+      font-size: 0.8rem;
+      text-align: center;
+      margin-top: 20px;
+     
+    }
+    .text_ii h1 {
+  
+      display: none;
+    }
+    .pic_ii img {
+    display: none;
+  }
+  .services_div{
+    justify-content: space-evenly;
+  }
+
+  }
+  
+  @media (max-width: 480px) {
+    .Fornt div h1 {
+      font-size: 12vw;
+    }
+    .Fornt div h3 {
+      font-size: 3.5vw;
+    }
+    .pic img {
+        margin-top: 40px;
+      width: 200px;
+      height: auto;
+    }
+    .text {
+      width: 90%;
+      margin: 10px auto;
+      text-align: start;
+    }
+    .pic_ii img {
+      margin-top: 40px;
+    width: 200px;
+    height: auto;
+    display: none;
+  }
+  .text_ii {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .text_ii h1 {
+    width: 90%;
+    margin: 10px auto;
+    display: none;
+  }
+  .services_div{
+    justify-content: space-evenly;
+  }
+  }
