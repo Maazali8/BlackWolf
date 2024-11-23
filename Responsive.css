@@ -48,6 +48,9 @@
       margin-left: 50px;
       width: 60%;
     }
+    .pic_ii img {
+      display: none;
+    }
     .services_div{
       justify-content: space-evenly;
     }
@@ -76,10 +79,6 @@
     .text {
       width: 80%;
       margin: 20px auto;
-    }
-    .text_ii h1 {
-
-      display: none;
     }
     .pic_ii img {
       display: none;
@@ -117,6 +116,8 @@
   }
   .services_div{
     justify-content: space-evenly;
+    height: auto;
+    
   }
 
   }
@@ -153,7 +154,8 @@
     margin: 10px auto;
     display: none;
   }
-  .services_div{
+  .services_div {
     justify-content: space-evenly;
+ 
   }
   }
