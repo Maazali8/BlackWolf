@@ -5,6 +5,7 @@
   }
   a{
     text-decoration: none;
+    color:goldenrod;
   }
   
   html {
@@ -19,7 +20,7 @@
  .Fornt{
   height: 100vh;
   width: 100%;
-  background-image: url(bg.jpg);
+  background-image: url(bg.jpg);  
   
 background-position: center;
 background-size: cover;
@@ -153,17 +154,50 @@ justify-content: center;
   .services_div div{
 
     margin-top: 20px;
-    height: 300px;
+    height: 250px;
     width: 300px;
     margin: 10px;
     background: #000;
     border-radius: 10px;
     margin-left: 40px;
     border: 1px solid rgba(255, 255, 255, .11);
-    border-left: 5px solid rgba(255, 255, 255, .11);
+    border-left: 3px solid rgba(255, 255, 255, .11);
     transition:0.5s  ease-out;
   }
   .services_div div:hover{
-    border-left: 6px solid rgb(128, 128, 128);
+    border-left: 3px solid rgb(128, 128, 128);
 
   }
+  
+  .services_div div h2{
+font-family: orpheus-pro;
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 2rem;
+margin-top: 20px;
+font-weight: 100;
+  } 
+  .h_ii{
+    position: relative;
+    top: 40px;
+    transition: 0.3s ease-out;
+    opacity: 0;
+   
+  }
+   .h_ii--visible {
+position: relative;
+top: 0px;
+opacity: 1;
+  }
+
+  .services_div div h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align:start;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: 15px;
+      }
+      .services_div div a{
+      text-align: center;
+      }
